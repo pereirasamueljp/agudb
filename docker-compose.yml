@@ -1,0 +1,10 @@
+version: "3.2"
+services:
+
+  mysql-server-db:
+    container_name: agu-mysql-container
+    image: agu-mysql
+    volumes:
+    - "./db/data:/var/lib/mysql"
+    ports:
+      - "3306:3306"

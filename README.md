@@ -1,2 +1,2 @@
-# agu-db
+# agudb
 database
